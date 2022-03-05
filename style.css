@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f2f6;
+}
+
+/* TEXTO E LOGO */
+
+.section-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+}
+
+.logo-texto img {
+    margin-left: -50px;
+    width: 300px;
+    height: auto;
+}
+
+.logo-texto h2 {
+    margin-top: -20px;
+    margin-left: -20px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    margin-right: 70px;
+}
+
+/* FORMULÁRIO */
+
+.login {
+    background-color: white;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px #00000046;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.login input {
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #00000038;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #1977f3;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login a {
+    text-decoration: none;
+    color: #1977f3;
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 18px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.login button {
+    background-color: #42b72a;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    height: 50px;
+    width: 150px;
+    margin-left: 128px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login hr {
+    width: 350px;
+}
+
+p {
+    text-align: center;
+    margin-left: 495px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.desenvolvido {
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #1977f3;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 4px;
+}
